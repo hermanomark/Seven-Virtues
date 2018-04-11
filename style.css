@@ -1,0 +1,206 @@
+body {
+	background-color: #FFF;
+	margin: 0;
+	height: 100%;
+	width: 100%;
+}
+
+h1 {
+	font-family: Verdanna, serif;
+	text-align: center;
+	top: 50px;
+	left: 30px;
+	color: black;
+	letter-spacing: 0.2em;
+}
+
+h2 {
+	font-family: Verdanna;
+	color: gray;
+	letter-spacing: 0.1em;
+}
+
+nav  {
+	position: fixed;
+	background-color: #ffff66;
+	width: 100%;	
+	z-index: 1;
+	box-shadow: 0 4px 6px 0 hsla(0,0%,0%,0.2);
+}
+
+ul {
+	margin: 15px auto;
+	padding: 0 20px;
+	text-align: center;
+	word-spacing: 20px;
+}
+
+li {
+	display: inline-block;
+	letter-spacing: 0.2em;
+}
+
+a {
+	color: black;
+	font-family: Verdanna, serif;
+	font-size: 12px;
+	font-weight: 300;
+	text-transform: uppercase;
+	text-decoration: none; 
+}
+
+a:link { 
+	
+} 
+		
+a:visited { 
+	text-decoration: none; 
+} 
+
+a:hover { 
+	color: lightgray;
+} 
+
+.gallery {
+	position: relative;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	top: 120px;
+}
+
+.gallery-item {
+  margin: 20px; /* margin: sets the amount of space between an HTML element and the next nearest element(s). */
+} 
+
+.gallery-item .thumbnail {
+  border: 5px solid lightgray;
+}
+
+.gallery-item .thumbnailCaption {
+	text-align: center;
+	color: black;
+	font-family: "Brush Script Std";
+	font-weight: 900;
+	font-size: 18px;
+}
+	
+.gallery-bg-chastity {
+	position: relative;
+	background-image: url("images/chastity.jpg");
+	background-size: cover;
+	padding: 0;
+	margin: 0;
+	height: 500px;
+	top: 100px;
+	width: 100%
+}
+
+.gallery-bg-temperance {
+	position: relative;
+	background-image: url("images/temperance.jpg");
+	background-size: cover;
+	padding: 0;
+	margin: 0;
+	height: 500px;
+	top: 100px;
+	width: 100%
+}
+
+.gallery-bg-charity {
+	position: relative;
+	background-image: url("images/charity.jpg");
+	background-size: cover;
+	padding: 0;
+	margin: 0;
+	height: 500px;
+	top: 100px;
+	width: 100%
+}
+
+.gallery-bg-diligence {
+	position: relative;
+	background-image: url("images/diligence.jpg");
+	background-size: cover;
+	padding: 0;
+	margin: 0;
+	height: 500px;
+	top: 100px;
+	width: 100%
+}
+
+.gallery-bg-patience {
+	position: relative;
+	background-image: url("images/patience.jpg");
+	background-size: cover;
+	padding: 0;
+	margin: 0;
+	height: 500px;
+	top: 100px;
+	width: 100%
+}
+
+.gallery-bg-kindness {
+	position: relative;
+	background-image: url("images/kindness.jpg");
+	background-size: cover;
+	padding: 0;
+	margin: 0;
+	height: 500px;
+	top: 100px;
+	width: 100%
+}
+
+.gallery-bg-humility {
+	position: relative;
+	background-image: url("images/humility.jpg");
+	background-size: cover;
+	padding: 0;
+	margin: 0;
+	height: 500px;
+	top: 100px;
+	width: 100%
+}
+
+.header {	
+	position: relative;
+	font-family: "Brush Script Std", sans-serif;
+	color: black;
+	text-align: center;
+	font-size: 78px;
+	top: 200px;
+	margin: 0;
+	padding: 0;
+	background-color: rgba(255,255,255,0.5);
+}
+
+p {
+	font-family: Verdanna, serif;
+	letter-spacing: 0.1em;
+	font-size: 16px;
+	font-weight: 400;
+	line-height: 1.8;
+}
+
+.content {
+	position: relative;
+	margin: 0 auto;
+	padding: 0 80px;
+	top: 150px;
+	background: white;
+	margin: 0 auto;
+	text-align: left;
+}
+
+footer {
+	color: black;
+	font-family: Verdanna, serif;
+	font-size: 14px;
+	position: relative;
+	top: 200px;
+	text-align: center;
+	background-color: #ffff66;
+	padding: 30px 0;
+	box-shadow: 0 -4px 6px 0 hsla(0,0%,0%,0.2);
+	font-weight: bold;
+}
